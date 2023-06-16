@@ -1,0 +1,1 @@
+export const getLimitState = (state: any) => state.settings.limit;

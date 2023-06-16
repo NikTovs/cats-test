@@ -1,0 +1,1 @@
+export const getBreedIdState = (state: any) => state.settings.chosenBreed;
