@@ -32,7 +32,7 @@ export class FiltersMenuComponent implements OnInit, OnDestroy {
   currentBreedId: string = '';
   isResponseLoading = false;
 
-  private completion$: Subject<void> = new Subject<void>();
+  private completion$ = new Subject<void>();
   
   ngOnInit(): void {
     this.getLimit();
